@@ -72,11 +72,11 @@ const Home = () => {
 </div>
 
 <div className='m-co pt-5'>
-<div class="row">
+<div class="row text-secondary">
     <div class="col-8 text-start pe-3">
-      <h2 className='oswald-font cover-name'>THE RIGHT CARE. RIGHT NOW.</h2>
-      <p className=''>A physician is obligated to consider more than a diseased organ, more than even the whole man—he must view the man in his world.” “Sometimes I inspire my patients; more often they inspire me.” “As a nurse, we have the opportunity to heal the heart, mind, soul and body of our patients, their families and ourselves.</p>
-   <p className=''>The key to a healthy life is having a healthy mind.” “Your illness is not your identity. Your chemistry is not your character.” “Wellness is the complete integration of body, mind, and spirit</p> 
+      <h2 className='oswald-font cover-name text-secondary'>THE RIGHT CARE. RIGHT NOW.</h2>
+      <p className='text-secondary'>A physician is obligated to consider more than a diseased organ, more than even the whole man—he must view the man in his world.” “Sometimes I inspire my patients; more often they inspire me.” “As a nurse, we have the opportunity to heal the heart, mind, soul and body of our patients, their families and ourselves.</p>
+   <p className='text-secondary'>The key to a healthy life is having a healthy mind.” “Your illness is not your identity. Your chemistry is not your character.” “Wellness is the complete integration of body, mind, and spirit</p> 
    <div>
   <div class="row pt-4">
     <div class="col text-center zoom-c">
@@ -127,7 +127,8 @@ const Home = () => {
       <img src="images\doctor.PNG" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title" style={{color: "rgb(55, 189, 230)"}}>The Doctors</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text text-secondary">
+        Small helpings. Sample a little bit of everything. These are the secrets of happiness and good health.Your body hears everything your mind says.</p>
         <a href="#" style={{backgroundColor: "rgb(55, 189, 230)"}} class="btn btn-primary">watch video</a>
       </div>
     </div>
@@ -137,7 +138,7 @@ const Home = () => {
       <img src="images\happyPatient.jpg" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 style={{color: "rgb(55, 189, 230)"}} class="card-title">Happy Patient</h5>
-        <p class="card-text">This is a short card.</p>
+        <p class="card-text text-secondary">Our bodies are our gardens our wills are our gardeners. So we need well services</p>
         <a href="#" style={{backgroundColor: "rgb(55, 189, 230)"}} class="btn btn-primary">watch video</a>
       </div>
     </div>
@@ -147,7 +148,9 @@ const Home = () => {
       <img src="images\happyEnvi.jpg" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 style={{color: "rgb(55, 189, 230)"}} class="card-title">The Environment</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text text-secondary">
+  First priority.Mental and physical health .Focus on your health, your mission, and your people. That’s it.
+How to be physically & mentally healthy?</p>
         <a href="#" style={{backgroundColor: "rgb(55, 189, 230)"}} class="btn btn-primary">watch video</a>
       </div>
     </div>
