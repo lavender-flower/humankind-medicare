@@ -15,11 +15,11 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
   const {user,logOut}=useAuth();
     return (
-        <div>
+        <div >
         
              
-      <Navbar collapseOnSelect expand="lg" style={{backgroundColor: "rgb(55, 189, 230)"}} data-bs-theme="light">
-        <Container>
+      <Navbar className='p-2' collapseOnSelect expand="lg" style={{backgroundColor: "rgb(55, 189, 230)"}} data-bs-theme="light">
+       
            
           <Navbar.Brand className='text-light cover-name' href="#home">  <img src="images/logo-w.png" alt="" width="30" height="30"/> Humankind Medicare</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,15 +28,16 @@ const Header = () => {
           <Nav className="me-auto">
             
             <Nav.Link ><NavLink className='text-decoration-none text-light ' to='/home'>Home</NavLink></Nav.Link>
-            <Nav.Link ><Link className='text-decoration-none text-light' to='/services'>Departments</Link></Nav.Link>
-            <Nav.Link ><NavLink className='text-decoration-none text-light' to='/doctors'>Our Doctors</NavLink></Nav.Link>
+            <Nav.Link ><Link className='text-decoration-none text-light' to='/services'>Servicess</Link></Nav.Link>
+            <Nav.Link ><NavLink className='text-decoration-none text-light' to='/doctors'>Doctors</NavLink></Nav.Link>
+            <Nav.Link ><NavLink className='text-decoration-none text-light' to='/paybill'>Pay Bill</NavLink></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/contacts'>Contacts Us</NavLink></Nav.Link>
             {user?.email? 
             <Button onClick={logOut} variant='outline-light'>Logout</Button>:
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/login'>Login</NavLink></Nav.Link>
 
             }
-            <Navbar.Text className='text-primary'><small>Signed in as:</small> <a href='#login' className='text-light'>{user?.displayName}</a></Navbar.Text>
+            <Navbar.Text className='text-primary'><a href='#login' className='text-light'>{user?.displayName}</a></Navbar.Text>
           </Nav>
           <Form className=" d-flex text-end">
      
@@ -49,7 +50,7 @@ const Header = () => {
 
                 </Form>
                 </Navbar.Collapse>
-        </Container>
+      
       </Navbar>
         </div>
     );

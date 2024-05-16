@@ -10,6 +10,8 @@ import Footer from './Pages/Footer/Footer';
 import Login from './Pages/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import Contact from './Pages/Contact/Contact';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import PayBill from './Pages/PayBill/PayBill';
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,13 @@ function App() {
   <Route path="/home" element={<Home />} />
   <Route path="/doctors" element={<Doctors />}/>
   <Route path="/services" element={<Services />}/>
-  <Route path="/contacts" element={<Contact />}/>
+  
+  <Route element={<PrivateRoute />}>
+  <Route path="/paybill" element={<PayBill />} />
+</Route>
+ 
+  <Route path='/contacts' element= { <Contact />
+         }/>
   <Route path="/login" element={<Login />}/>
     <Route path="*" element={<NotFound />} />
   
