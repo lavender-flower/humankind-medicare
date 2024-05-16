@@ -30,7 +30,7 @@ const Header = () => {
             <Nav.Link ><NavLink className='text-decoration-none text-light ' to='/home'>Home</NavLink></Nav.Link>
             <Nav.Link ><Link className='text-decoration-none text-light' to='/services'>Departments</Link></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/doctors'>Our Doctors</NavLink></Nav.Link>
-            <Nav.Link ><NavLink className='text-decoration-none text-light' to='/contacts'>Conacts</NavLink></Nav.Link>
+            <Nav.Link ><NavLink className='text-decoration-none text-light' to='/contacts'>Contacts Us</NavLink></Nav.Link>
             {user?.email? 
             <Button onClick={logOut} variant='outline-light'>Logout</Button>:
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/login'>Login</NavLink></Nav.Link>

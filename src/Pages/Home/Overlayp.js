@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Overlayp.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { Link } from 'react-router-dom';
 const Overlayp = () => {
   const [show, setShow] = useState(false);
 
@@ -10,10 +11,10 @@ const Overlayp = () => {
 
     return (
         <div className='py-5 my-5'>
-            <div class="container1">
-  <img src="images/cover4.jpg" alt="Avatar" class="image"/>
-  <div class="overlay">
-    <div class="text">
+            <div className="container1">
+  <img src="images/cover4.jpg" alt="Avatar" className="image"/>
+  <div className="overlay">
+    <div className="text">
     <div className=' mt-5 text-light p-5 mb-5'>
   <h3 className='oswald-font'>HIGH CLASS SPECIALISTS READY TO HELP YOU AT ANY TIME</h3><hr></hr>
   <small>“He who has health has hope and he who has hope has everything.” “Let's build wellness rather than treat disease.” “A healthy outside starts from the inside.” “It is health that is real wealth and not pieces of gold and silver.”
@@ -39,14 +40,14 @@ const Overlayp = () => {
 
 
     
-    <div class="col">
-    <div class="input-group input-group-sm mb-3" >
-  <span class="input-group-text" id="inputGroup-sizing-sm"style={{color: "rgb(235, 84, 84)"}}>Your Name</span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
+    <div className="col">
+    <div className="input-group input-group-sm mb-3" >
+  <span className="input-group-text" id="inputGroup-sizing-sm"style={{color: "rgb(235, 84, 84)"}}>Your Name</span>
+  <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
 </div>
-<div class="input-group-sm mb-3" >
+<div className="input-group-sm mb-3" >
   
-  <select class="form-select" id="inputGroupSelect01" style={{color: "rgb(235, 84, 84)"}}>
+  <select className="form-select" id="inputGroupSelect01" style={{color: "rgb(235, 84, 84)"}}>
     <option selected>Choose Services...</option>
     <option value="1">Medicine</option>
     <option value="2">Eye Specialist</option>
@@ -63,10 +64,10 @@ const Overlayp = () => {
 </div>
 
     </div>
-    <div class="col">
-    <div class="input-group input-group-sm mb-3">
-  <span class="input-group-text" id="inputGroup-sizing-sm"style={{color: "rgb(235, 84, 84)"}}>Your Email</span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
+    <div className="col">
+    <div className="input-group input-group-sm mb-3">
+  <span className="input-group-text" id="inputGroup-sizing-sm"style={{color: "rgb(235, 84, 84)"}}>Your Email</span>
+  <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
 </div>
 <div>
 
@@ -84,9 +85,9 @@ const Overlayp = () => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button type='submit' style={{backgroundColor: "rgb(235, 84, 84)"}} className="btn text-light" onClick={handleClose}>
+          <Link className='text-decoration-none text-light' to='/login'>  <Button type='submit' style={{backgroundColor: "rgb(235, 84, 84)"}} className="btn text-light" onClick={handleClose}>
             Book Appointment
-          </Button>
+          </Button></Link>
         </Modal.Footer>
       </Modal>
 

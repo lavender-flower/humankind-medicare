@@ -9,6 +9,7 @@ import Services from './Pages/Services/Services';
 import Footer from './Pages/Footer/Footer';
 import Login from './Pages/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
+import Contact from './Pages/Contact/Contact';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
   <Route path="/home" element={<Home />} />
   <Route path="/doctors" element={<Doctors />}/>
   <Route path="/services" element={<Services />}/>
+  <Route path="/contacts" element={<Contact />}/>
   <Route path="/login" element={<Login />}/>
     <Route path="*" element={<NotFound />} />
   

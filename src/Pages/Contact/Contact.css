@@ -1,0 +1,34 @@
+.con-component {
+    /* The image used */
+    background-image: url(https://themes.envytheme.com/mavis/wp-content/uploads/2024/04/services-details1.jpg);
+
+    
+
+    background-repeat: no-repeat;
+    
+    background-size:contain;
+    background-position:top;
+    background: cover;
+
+}
+
+.oswald-font {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .bg-ap{
+    background-color:rgb(235, 84, 84);
+}
+.zoom {
+    
+    
+  transition: transform .2s; /* Animation */
+  
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
