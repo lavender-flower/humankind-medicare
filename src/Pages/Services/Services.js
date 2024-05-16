@@ -9,7 +9,11 @@ const Services = () => {
   <img src="images/department.png" alt="Avatar" className="image-service"/>
   <div className="overlay-service">
     <div className="text-service"><h1>Our Medical Service</h1><br></br><p>
-We're different from typical health checkup center. We're out to create magic. The goal is to WOW you with outstanding treatment.</p><button type="button" style={{ backgroundColor:"rgb(235, 84, 84)"}} className="btn text-light">Watch Timetable</button></div>
+We're different from typical health checkup center. We're out to create magic. The goal is to WOW you with outstanding treatment.</p>
+
+<button type="button" style={{ backgroundColor:"rgb(235, 84, 84)"}} className="rounded-pill btn text-light">Our Services</button>
+
+</div>
   </div>
 </div>
 

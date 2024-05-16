@@ -18,7 +18,9 @@ const Doctors = () => {
   <img src="images/doctors.jpg" alt="Avatar" className="image-doctor"/>
   <div className="overlay-doctor">
     <div className="text-doctor"><h1>WE MADE YOUR MEDICAL TREATMENT EASY</h1>
-    <p>We will give you better healthcare, Here you can find some professional specialist. </p><button type="button" className="btn btn-danger">Get Emergency</button></div>
+    <p>We will give you better healthcare, Here you can find some professional specialist. </p>
+<button type="button" style={{ backgroundColor:"rgb(235, 84, 84)"}} className="rounded-pill btn text-light">Our Doctors</button>
+</div>
   </div>
 </div>
 
