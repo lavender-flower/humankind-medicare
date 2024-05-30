@@ -13,8 +13,8 @@ const Contact = () => {
         <div className='pt-5'> <div className='pt-5'><h1  className='pt-5 p-b text-light'>Personalized Care, Trusted Expertise: Humankind Medicare Unraveled</h1></div></div></div></div> </div>
            
   <div className="row p-5 text-light">
-    <div style={{borderRadius:"50px 20px"}} className="col zoom bg-ap p-3 mx-3">
-    <div className="row">
+    <div style={{borderRadius:"50px 20px"}} className="col-lg zoom bg-ap p-3 m-3">
+    <div className="row ">
     <div className="col-4"> <FontAwesomeIcon style={{fontSize:"60px"}} className='py-5' icon={faLocationDot} />
    </div>
     <div className="col-8 py-3 text-start"> <p>Address:</p>
@@ -23,7 +23,7 @@ const Contact = () => {
   </div>
    
     </div>
-    <div style={{borderRadius:"50px 20px"}} className="col zoom bg-ap p-3 mx-4">
+    <div style={{borderRadius:"50px 20px"}} className="col-lg zoom bg-ap p-3 m-4">
     <div className="row">
     <div className="col-4"> <FontAwesomeIcon  style={{fontSize:"60px"}} className='py-5' icon={faPhone} /></div>
     <div className="col-8 py-3 text-start">  <p>Phone:</p>
@@ -33,7 +33,7 @@ const Contact = () => {
    
   
     </div>
-    <div style={{borderRadius:"50px 20px"}} className="col zoom p-3 bg-ap mx-3">
+    <div style={{borderRadius:"50px 20px"}} className="col-lg zoom p-3 bg-ap m-3">
     <div className="row">
     <div className="col-4">  <FontAwesomeIcon  style={{fontSize:"60px"}} className='py-5' icon={faEnvelope} /></div>
     <div className="col-8 py-3 text-start">
@@ -48,8 +48,8 @@ const Contact = () => {
   </div>
 
   <div className="row p-5">
-    <div className="col-4"><img src='./images/contact.jpg'  style={{borderRadius:"25px"}} ></img></div>
-    <div className="col-8 text-start">
+    <div className="col-lg-4"><img src='./images/contact.jpg'  style={{borderRadius:"25px"}} ></img></div>
+    <div className="col-lg-8 text-start">
     <form>
   <div className="mb-3">
     <label for="exampleInputName" className="form-label fs-3">Name</label>

@@ -28,7 +28,7 @@ const Header = () => {
           <Nav className="me-auto">
             
             <Nav.Link ><NavLink className='text-decoration-none text-light ' to='/home'>Home</NavLink></Nav.Link>
-            <Nav.Link ><Link className='text-decoration-none text-light' to='/services'>Servicess</Link></Nav.Link>
+            <Nav.Link ><Link className='text-decoration-none text-light' to='/services'>Services</Link></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/doctors'>Doctors</NavLink></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/paybill'>Pay Bill</NavLink></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-light' to='/contacts'>Contacts Us</NavLink></Nav.Link>

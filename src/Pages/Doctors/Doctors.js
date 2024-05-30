@@ -17,8 +17,8 @@ const Doctors = () => {
             <div className="container-doctor">
   <img src="images/doctors.jpg" alt="Avatar" className="image-doctor"/>
   <div className="overlay-doctor">
-    <div className="text-doctor"><h1>WE MADE YOUR MEDICAL TREATMENT EASY</h1>
-    <p>We will give you better healthcare, Here you can find some professional specialist. </p>
+    <div className="text-doctor"><h1 style={{fontSize:'3vw'}}>WE MADE YOUR MEDICAL TREATMENT EASY</h1>
+    <p style={{fontSize:'1vw'}}>We will give you better healthcare, Here you can find some professional specialist. </p>
 <button type="button" style={{ backgroundColor:"rgb(235, 84, 84)"}} className="rounded-pill btn text-light">Our Doctors</button>
 </div>
   </div>
@@ -51,15 +51,15 @@ const Doctors = () => {
 <div>
 <div style={{borderRadius:"50px 20px"}} className="container  bg-ap text-white mb-5">
   <div className="row text-start p-5">
-    <div className="col pt-3">
+    <div className="col-lg pt-3">
       <h5>Our Mission</h5>
       <p>Our clinic's goal is to give each patient compassionate, all-encompassing, and individualized medical care. Our dedication lies in our pursuit of wellness promotion, sickness prevention, and meeting the particular requirements of every person we assist.</p>
     </div>
-    <div className="col pt-3">
+    <div className="col-lg pt-3">
       <h5>Our vision</h5>
       <p>Our Clinic's aim is to be the premier supplier of outstanding healthcare services, known for our steadfast dedication to patient-centered care, innovation, and clinical quality. Our goal is to establish a more wholesome community.</p>
     </div>
-    <div className="col pt-3">
+    <div className="col-lg pt-3">
       <h5>Our Value</h5>
       <p>We place a high value on compassion, understanding, and empathy in all of our interactions with patients because we know that emotional support is crucial to the healing process. In order to build trust, we maintain the greatest moral standards, integrity, and openness in all facets of our work.</p>
     </div>

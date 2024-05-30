@@ -39,8 +39,8 @@ setEmail(e.target.value);
             <div className='row p-5'>
             
                
-            <div className="col-4 p-5 text-start"><img src='./images/logins.jpg'  style={{borderRadius:"25px",width:"400px"}} ></img></div>
-         <div className='col-8 p-5 text-start'>
+            <div className="col-lg-4 p-5 text-start"><img src='./images/logins.jpg'  style={{borderRadius:"25px",width:"30vw"}} ></img></div>
+         <div className='col-lg-8 p-5 text-start'>
          <h3>Please Register </h3>
 <form className='text-start'  onSubmit={handleRegistration}>
     

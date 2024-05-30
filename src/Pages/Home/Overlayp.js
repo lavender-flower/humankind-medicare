@@ -16,12 +16,13 @@ const Overlayp = () => {
   <div className="overlay">
     <div className="text">
     <div className=' mt-5 text-light p-5 mb-5'>
-  <h3 className='oswald-font'>HIGH CLASS SPECIALISTS READY TO HELP YOU AT ANY TIME</h3><hr></hr>
-  <small>“He who has health has hope and he who has hope has everything.” “Let's build wellness rather than treat disease.” “A healthy outside starts from the inside.” “It is health that is real wealth and not pieces of gold and silver.”
+<div>  <h3 className='oswald-font' style={{fontSize:'2.5vw'}}>HIGH CLASS SPECIALISTS READY TO HELP YOU AT ANY TIME</h3><hr></hr>
+  <small style={{fontSize:'1vw'}}>He who has health has hope and he who has hope has everything. Let's build wellness rather than treat disease. A healthy outside starts from the inside. It is health that is real wealth and not pieces of gold and silver.
 </small>
-<br></br><br></br>
+  </div>
 
-<Button type="button" style={{backgroundColor: "rgb(235, 84, 84)"}} className="btn btn-sm text-light px-5" onClick={handleShow}>
+
+<Button type="button" style={{backgroundColor: "rgb(235, 84, 84)",fontSize:'1.2vw'}} className="btn btn-sm text-light px-5" onClick={handleShow}>
         Book Appointment
       </Button>
 
